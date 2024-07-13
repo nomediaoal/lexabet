@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LexaBet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header><center> <img src="images/lexabet.png" alt="Lexabet Logo">
+        
+          <h1>Faça seu depósito a partir de <strong>$5,00</strong> e receba seu bônus temporário de <strong>$15,00</strong></h1>
+          <h1>Não perca essa oportunidade única! Depositos rápidos e seguros.</h1>
+        </header>
+      </center>
+        <main>
+            <form action="processar_aposta" method="post">
+                <label for="cpf"><strong>CPF:</strong></label>
+                <input type="text" id="cpf" name="cpf" required>
+                <label for="chave_pix"><strong>Chave PIX:</strong></label>
+                <input type="text" id="chave_pix" name="chave_pix" required>
+              <label for="telefone"><strong>Telefone:</strong></label>
+                <input type="text" id="telefone" name="telefone" required>
+                  <label for="Nome"><strong>Nome:</strong></label>
+                    <input type="text" id="nome" name="nome" required>
+                
+                <button type="submit">Tenho +18</button>
+
+            </form>
+        </main>
+        <footer>
+            <p><strong>&copy; 2024 LexaBet. Todos os direitos reservados. Ao continuar você concorda com os termos de uso do site.</strong></p>
+        </footer>
+    </div>
+</body>
+</html>
+

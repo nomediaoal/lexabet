@@ -1,0 +1,235 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f5f9; /* Cor de fundo */
+    background-image: url('background/background.jpg');
+    background-size: cover; /* Para cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff; /* Cor de fundo do container */
+    padding: 20px;
+    border-radius: 10px; /* Arredondamento dos cantos */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+header img {
+    max-width: 45%; 
+    height: auto;
+    margin-left: 1px; 
+}
+
+h1 {
+    color: #4169e1;
+    font-family: 'Impact', sans-serif; /* Usando 'Impact' com fallback para sans-serif */
+    font-weight: 1; /* Ajustando para um peso mais leve, se disponível */
+    font-style: italic; /* Aplicando itálico */
+    margin-bottom: 25px;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+label {
+    margin-bottom: 10px;
+    color: c; 
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc; /* Linha de separação */
+    margin-bottom: 20px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff; /* Cor azul quando focado */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Cor mais escura ao passar o mouse */
+}
+
+footer, p {
+    text-align: center;
+    margin-top: 20px;
+    color: #777; /* Cor do texto do rodapé */
+}
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f5f9; /* Cor de fundo */
+    background-image: url('background/background.jpg');
+    background-size: cover; /* Para cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff; /* Cor de fundo do container */
+    padding: 20px;
+    border-radius: 10px; /* Arredondamento dos cantos */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+    color: #555; /* Cor do texto */
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc; /* Linha de separação */
+    margin-bottom: 20px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff; /* Cor azul quando focado */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Cor mais escura ao passar o mouse */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777; /* Cor do texto do rodapé */
+}
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f5f9; /* Cor de fundo */
+    background-image: url('background/background.jpg');
+    background-size: cover; /* Para cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff; /* Cor de fundo do container */
+    padding: 20px;
+    border-radius: 10px; /* Arredondamento dos cantos */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+    color: #555; /* Cor do texto */
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc; /* Linha de separação */
+    margin-bottom: 20px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff; /* Cor azul quando focado */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Cor mais escura ao passar o mouse */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777; /* Cor do texto do rodapé */
+}
